@@ -81,7 +81,6 @@ video {
   display: flex;
   gap: 26px;
   grid-area: content__details;
-  display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: start;
@@ -174,7 +173,7 @@ video {
   text-overflow: ellipsis;
 }
 
-.content__video-card-description {     
+.content__video-card-description {
   color: #FFF;
   -webkit-line-clamp: 1;
   font-family: "Fira Sans Condensed";
@@ -215,6 +214,8 @@ fieldset {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  height: 100%;
+  justify-content: space-between;
 }
 
 .search-form__label {
