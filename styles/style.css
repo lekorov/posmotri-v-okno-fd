@@ -167,8 +167,8 @@ video {
 }
 
 .search-form__fieldset-title {
-  text-overflow: ellipsis; 
-  white-space: nowrap; 
+  text-overflow: ellipsis;
+  white-space: nowrap;
   overflow: hidden;
   color: #FFF;
   font-family: Oswald, Arial, sans-serif;
@@ -188,7 +188,7 @@ video {
   text-transform: none;
   align-self: stretch;
   color: #FFF;
-  font-family: "Fira Sans Condensed", Arial, sans-serif;;
+  font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
