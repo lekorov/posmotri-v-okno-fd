@@ -150,10 +150,8 @@ video {
 }
 
 .title {
-  color: #FFF;
   font-family: Oswald;
   font-size: 75px;
-  font-style: normal;
   font-weight: 700;
   line-height: 94%;
   text-transform: uppercase;
@@ -164,25 +162,22 @@ video {
 }
 
 .search-form__fieldset-title {
-  color: #FFF;
-  font-family: "Fira Sans Condensed";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  overflow: hidden;
   line-height: normal;
-  text-overflow: ellipsis;
 }
 
 .content__video-card-description {
-  color: #FFF;
-  -webkit-line-clamp: 1;
-  font-family: "Fira Sans Condensed";
-  font-size: 18px;
-  font-style: normal;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  overflow: hidden;
   text-transform: none;
   align-self: stretch;
-  font-weight: 400;
-  line-height: 16.2px; /* 90% */
 }
 
 .visually-hidden {
