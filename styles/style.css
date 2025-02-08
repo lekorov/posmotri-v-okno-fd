@@ -116,13 +116,12 @@ video {
 
 .content__video-card-title {
   color: #fff;
-  font-family: Oswald, sans-ser;
+  font-family: Oswald, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 100%; /* 30px */
   text-transform: uppercase;
-  padding-left: 1px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -161,8 +160,7 @@ video {
 }
 
 .content__list-item {
-  /* stylelint-disable-next-line length-zero-no-unit */
-  padding: 0px 3px;
+  padding: 0 3px;
 }
 
 .content__card-link {
@@ -303,11 +301,16 @@ fieldset {
 }
 
 .search-form__label:has(input[type='checkbox']):hover,
-.content__card-link:hover,
 .button:hover {
   text-decoration: underline solid #fff;
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
+}
+
+
+.content__card-link:hover {
+  text-decoration: underline solid #fff;
+  text-decoration-skip-ink: none;
 }
 
 .button {
